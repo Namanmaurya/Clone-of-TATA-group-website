@@ -6,7 +6,6 @@
 
 a {
     text-decoration: none;
-
 }
 
 body {
@@ -43,8 +42,6 @@ h5 {
     margin-bottom: 15px;
     font-weight: 500;
 }
-
-
 
 
 
@@ -159,7 +156,6 @@ h5 {
     transition: all 0.3s ease;
 }
 
-/* Animation for Hamburger */
 .hamburger-btn.open div:nth-child(1) {
     transform: rotate(45deg) translate(5px, 5px);
 }
@@ -257,7 +253,6 @@ h5 {
     transition: all 0.3s ease-in-out;
 }
 
-/* Optional: Slightly reduce navbar height when scrolling */
 .scrolled {
     padding: 10px 15px;
 }
@@ -310,9 +305,7 @@ h5 {
     width: 140px;
 }
 
-
 /* slide show start */
-
 
 .slideshow-container {
     position: relative;
@@ -331,7 +324,6 @@ h5 {
 
 /* Add style for dots */
 
-
 .dot {
     position: relative;
     top: -40px;
@@ -348,10 +340,7 @@ h5 {
 .dot.active {
     background-color: #c9c9c9;
 }
-
-
 /* slide show end */
-
 
 .herosection {
     position: relative;
@@ -360,7 +349,6 @@ h5 {
 }
 
 .headingwbg {
-
     background-color: #ed3b3e;
     color: #fff;
     text-align: center;
@@ -383,9 +371,7 @@ h5 {
 }
 
 .service_img img {
-
     max-width: 400px;
-
 }
 
 .p_text {
@@ -413,9 +399,6 @@ h5 {
     margin: 0px 15px;
     color: black;
 }
-
-
-
 
 .card::after {
     content: '';
@@ -480,8 +463,6 @@ h5 {
 }
 
 .smart-elevator::after {
-
-
     transform: translate(-50%, -60%);
     content: '';
     position: absolute;
@@ -496,7 +477,6 @@ h5 {
     background-position: center center;
     background-repeat: no-repeat;
 }
-
 
 .video-container {
     position: relative;
@@ -619,9 +599,6 @@ h5 {
 .play-button:hover {
     transform: translate(-50%, -50%) scale(1.2);
 }
-
-
-
 
 .key_variable {
     padding: 90px 0px;
@@ -781,8 +758,6 @@ h5 {
 
 }
 
-
-
 .prev,
 .next {
     position: absolute;
@@ -887,8 +862,6 @@ h5 {
 
 }
 
-
-/* Social Presence Section */
 .social_presence {
     background: #e31e24;
     padding: 50px 20px;
@@ -967,7 +940,6 @@ h5 {
     background: #ff0000;
 }
 
-/* Icon Name Styles */
 .icon_name {
     font-size: 1rem;
     font-weight: bold;
@@ -985,10 +957,6 @@ h5 {
 .icon:hover+.icon_name {
     opacity: 1;
 }
-
-
-
-
 
 
 /* testimonial section */
@@ -1030,7 +998,6 @@ h5 {
     justify-content: center;
 }
 
-
 .testimonial-card .t_card_part1 {
     height: 330px;
     position: relative;
@@ -1040,10 +1007,6 @@ h5 {
 
 }
 
-/* .testimonial-card .t_card_part1 .t_card_part_S {
-    padding: 0px 20px;
-    background-color: aqua;
-} */
 
 .testimonial-card .t_card_part1 i {
     font-size: 60px;
@@ -1367,12 +1330,12 @@ h5 {
     margin: 5px 0 25px;
 }
 
-/* General form styling */
+
 form {
     padding: 60px 20px;
 }
 
-/* Input field styling */
+
 .text-input input,
 .text-input textarea {
     width: 100%;
@@ -1397,7 +1360,7 @@ form {
     box-shadow: 0 0 5px rgba(240, 240, 240, 0.5);
 }
 
-/* Ensure 3 inputs per row with gap */
+
 .custom-row {
     position: relative;
     display: flex;
@@ -1513,12 +1476,8 @@ form {
     color: #002c42;
 }
 
-/* Responsive adjustments */
-@media (max-width: 768px) {
-    .custom-row .custom-col {
-        flex: 1 1 100%;
-    }
-}
+
+/* Company Overview Page */
 
 
 
@@ -1730,6 +1689,10 @@ form {
 
     .login {
         margin-top: 150px;
+    }
+
+    .custom-row .custom-col {
+        flex: 1 1 100%;
     }
 
 }
